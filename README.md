@@ -1,10 +1,6 @@
 steps to deploy the project
 
-1. install laravel application using below command
-    
-    => composer create-project laravel/laravel metamaxx --prefer-dist
-    
-2. update the database credentials by editinf .env file
+1. Just rename .env.example file to .env file and update database credentials like below
 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
@@ -17,10 +13,6 @@ steps to deploy the project
 
     => php artisan migrate
     
+4. please refer attached postman collection to test the routes
 
-4. Install & Configure JWT Authentication Package
-
-    => composer require tymon/jwt-auth
     
-    
-5.     
